@@ -14,13 +14,12 @@ header{
 }
 
 .navbar{
-    position: absolute;
+    position: relative;
     padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -48,17 +47,16 @@ header li {
 }
 
 header li a {
-    display: block;
+    display: flexbox;
     padding: 20px;
 }
 
-header li a:hover {
+header li:hover a{
     background-color: white;
-    color: #fff;
 }
 
 header li:hover .sub-menu li a {
-    display: block;
+    display: contents;
 } 
 
 .sub-menu {
@@ -69,19 +67,19 @@ header li:hover .sub-menu li a {
 }
 
 .sub-menu li a {
-    color: gray;
     display: none;
     position: relative;
 }
 
 .sub-menu li{
-    display: block;
+    display: inline-block;
 }
 
 .sub-menu li:hover a{
     background-color: white;
     color: #00b39b;
 }
+
 .about-section{
     color: #00b39b;
     text-align: center;
@@ -115,7 +113,7 @@ header li:hover .sub-menu li a {
    margin: 10px;
  }
  .projet P{
-    padding: 10px;
+    padding: 5px;
     line-height: 30px;
  }
 
