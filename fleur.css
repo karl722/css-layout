@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+header{
+    height: 20vh;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-logo{
+    width: 300px;
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar .nav-links ul{
+    display: block;
+}
+
+.navbar .nav-links ul li.active a{
+    color: #00b39b;
+}
+
+.nav-links li:hover a {
+    color: #00b39b;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+header li a {
+    display: block;
+    padding: 20px;
+}
+
+header li a:hover {
+    background-color: white;
+    color: #fff;
+}
+
+header li:hover .sub-menu li a {
+    display: block;
+} 
+
+.sub-menu {
+    width: 20px;
+    position: absolute;
+    background-color: white;
+    color: gray;
+}
+
+.sub-menu li a {
+    color: gray;
+    display: none;
+    position: relative;
+}
+
+.sub-menu li{
+    display: block;
+}
+
+.sub-menu li:hover a{
+    background-color: white;
+    color: #00b39b;
+}
+.about-section{
+    color: #00b39b;
+    text-align: center;
+    position: sticky;
+ }
+
+ .fex-logo {
+    width: 40px;
+    margin: 40px;
+ }
+
+.slogan-text{
+    margin-top: 10px;
+    color: #00b39b;
+    font-size: 1,625em;
+    font-weight: 500;
+}
+
+ .projects-section{
+   position: sticky;
+   padding: 80px;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   box-sizing: border-box;
+   color: gray;
+ }
+
+ .projet h1{
+   text-align: center;
+   margin: 10px;
+ }
+ .projet P{
+    padding: 10px;
+    line-height: 30px;
+ }
+
+ #main{
+    position: sticky;
+ }
